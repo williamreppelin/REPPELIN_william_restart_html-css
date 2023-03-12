@@ -1,0 +1,71 @@
+body{
+    background-color :brown;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    height:center;
+
+}
+
+#h1  {
+    text-align: center;
+    display: flex;
+    font-style:italic;
+    border-spacing: 25%;
+}
+
+#h2  {
+    text-align: center;
+    display: flex;
+    font-style:italic;
+    border-spacing: 25%;
+}
+
+.p1{
+    line-height: 300%;
+}
+
+.h3 {position: absolute; top: 775px; right: 50%;}
+.imaglogo1  { position: absolute; top: 900px; right: 25%; }
+.imaglogo2  { position: absolute; top: 900px; right: 50%; }
+.imaglogo3  { position: absolute; top: 900px; right: 75%; }
+.button2 {position:absolute; top: 850px; right: 28%;}
+.button3 {position:absolute; top: 850px; right: 55%;}
+.button4 {position:absolute; top: 850px; right: 78%;}
+.logo {position:absolute;top: 225px; right: 45%;}
+.h1 {position: absolute;top:80px; right: 45%;}
+.h2{position:absolute; top: 500px; right:10%}
+.instagram{position:absolute; top:1500px; right:50%}
+
+table, td, tr{
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding:5px;
+
+}
+
+
+td{
+    width: 160px;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+#montreimg{
+    margin: auto;
+    display: block;
+    max-height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 7px 3px 3px black;
+}
+
